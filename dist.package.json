@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "PROJECT_NAME",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -12,18 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/impuDEV/exc-course.git"
+    "url": "git+https://github.com/AUTHOR_NAME/PROJECT_NAME.git"
   },
   "keywords": [
     "js",
     "javascript"
   ],
   "browserslist": "> 0.25%, not dead",
-  "author": "impuDEV <impudev@gmail.com>",
+  "author": "AUTHOR_NAME <AUTHOR_NAME@MAIL.COM>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/impuDEV/exc-course/issues"
+    "url": "https://github.com/AUTHOR_NAME/PROJECT_NAME/issues"
   },
-  "homepage": "https://github.com/impuDEV/exc-course#readme",
+  "homepage": "https://github.com/AUTHOR_NAME/PROJECT_NAME#readme",
   "private": true
 }

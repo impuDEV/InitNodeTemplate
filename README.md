@@ -1,8 +1,27 @@
 # InitNodeTemplate
 Fast template of NodeJS project initial configuration
 
-For proper working need to install list of plugins:
+## First Step
+* Rename file
 
-npm i -D webpack webpack-cli html-webpack-plugin copy-webpack-plugin clean-webpack-plugin mini-css-extract-plugin cross-env	sass sass-loader css-loader babel-loader @babel/core @babel/preset-env webpack-dev-server terser-webpack-plugin optimize-css-assets-webpack-plugin eslint eslint-loader babel-eslint eslint-config-google webpack-bundle-analyzer
+__dist.package.json => package.json__
 
-npm i --save @babel/polyfill
+* Change in _package.json_
+
+__PROJECT_NAME | AUTHOR_NAME | MAIL.COM__ 
+
+to relevant data
+
+
+## Second step
+__For proper working need to install list of plugins, loaders, ...:__
+
+>npm i -D webpack webpack-cli html-webpack-plugin copy-webpack-plugin clean-webpack-plugin mini-css-extract-plugin
+
+>npm i -D cross-env sass sass-loader css-loader babel-loader @babel/core @babel/preset-env webpack-dev-server
+
+>npm i -D terser-webpack-plugin optimize-css-assets-webpack-plugin eslint eslint-loader babel-eslint
+
+>npm i -D eslint-config-google webpack-bundle-analyzer
+
+>npm i --save @babel/polyfill
