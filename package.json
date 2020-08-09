@@ -1,0 +1,29 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
+    "stats": "webpack --json > stats.json && webpack-bundle-analyzer stats.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impuDEV/exc-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "browserslist": "> 0.25%, not dead",
+  "author": "impuDEV <impudev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/impuDEV/exc-course/issues"
+  },
+  "homepage": "https://github.com/impuDEV/exc-course#readme",
+  "private": true
+}
