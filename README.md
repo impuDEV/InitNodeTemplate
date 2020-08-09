@@ -1,5 +1,5 @@
 # InitNodeTemplate
-Fast template of NodeJS project initial configuration
+Fast template of NodeJS project initial configuration based on Webpack
 
 ## First Step
 * Rename file
@@ -24,7 +24,7 @@ __For proper working need to install list of plugins, loaders, ...:__
 
 >npm i -D eslint-config-google webpack-bundle-analyzer
 
->npm i --save @babel/polyfill
+>npm i --save @babel/polyfill normalize.css
 
 ## Third step
 Jet Brains WEB Storm:
