@@ -10,7 +10,7 @@ __dist.package.json => package.json__
 
 __PROJECT_NAME | AUTHOR_NAME | MAIL.COM__ 
 
-to relevant data
+to relevant data (name: name_of_root_dir)
 
 
 ## Second step
@@ -25,3 +25,13 @@ __For proper working need to install list of plugins, loaders, ...:__
 >npm i -D eslint-config-google webpack-bundle-analyzer
 
 >npm i --save @babel/polyfill
+
+## Third step
+Jet Brains WEB Storm:
+
+> Settings => Languages & Frameworks => JavaScript => Code Quality Tools => ESLint
+ 
+## Firth step
+git init and first commit
+
+__! GOOD LUCK !__
