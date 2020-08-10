@@ -22,7 +22,7 @@ __For proper working need to install list of plugins, loaders, ...:__
 
 >npm i -D terser-webpack-plugin optimize-css-assets-webpack-plugin eslint eslint-loader babel-eslint
 
->npm i -D eslint-config-google webpack-bundle-analyzer
+>npm i -D eslint-config-google webpack-bundle-analyzer @babel/plugin-proposal-class-properties
 
 >npm i --save @babel/polyfill normalize.css
 
