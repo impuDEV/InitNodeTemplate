@@ -8,6 +8,7 @@
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
     "stats": "webpack --json > stats.json && webpack-bundle-analyzer stats.json",
+    "lint": "npx eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
