@@ -31,7 +31,17 @@ Jet Brains WEB Storm:
 
 > Settings => Languages & Frameworks => JavaScript => Code Quality Tools => ESLint
  
-## Firth step
-git init and first commit
+## Fourth step
+git initialisation in terminal:
+>git init
+> 
+>git add .
+>
+>git commit -m "initialization project"
+>
+>git remote add origin https://github.com/AUTHOR_NAME/PROJECT_NAME.git
+>
+>git push -u origin master (if push rejected try: *git push -f origin master*)
+>
 
 __! GOOD LUCK !__
