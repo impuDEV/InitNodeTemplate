@@ -52,3 +52,5 @@ child5 = exec('npm i --save @babel/polyfill normalize.css',
             console.log('exec error:\n' + error);
         }
     });
+
+fs.unlinkSync('./init.js');
